@@ -31,12 +31,6 @@ class CornerRadiusViewController: UIViewController {
         title = "Corner Radius"
         collectionView.registerNib(UINib(nibName: "CornerRadiusCell", bundle: nil), forCellWithReuseIdentifier: CornerRadiusCell.reuseId)
     }
-    
-    override func viewWillLayoutSubviews() {
-        super.viewWillLayoutSubviews()
-        
-        collectionView.collectionViewLayout.invalidateLayout()
-    }
 }
 
 extension CornerRadiusViewController: UICollectionViewDataSource {

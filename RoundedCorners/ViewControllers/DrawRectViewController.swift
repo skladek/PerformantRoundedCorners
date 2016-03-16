@@ -30,12 +30,6 @@ class DrawRectViewController: UIViewController {
         title = "Draw Rect"
         collectionView.registerNib(UINib(nibName: "DrawRectCell", bundle: nil), forCellWithReuseIdentifier: DrawRectCell.reuseId)
     }
-    
-    override func viewWillLayoutSubviews() {
-        super.viewWillLayoutSubviews()
-        
-        collectionView.collectionViewLayout.invalidateLayout()
-    }
 }
 
 extension DrawRectViewController: UICollectionViewDataSource {
