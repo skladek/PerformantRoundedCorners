@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C501A6771C9720800034733C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C501A6761C9720800034733C /* AppDelegate.swift */; };
+		C501A67E1C9720800034733C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C501A67D1C9720800034733C /* Assets.xcassets */; };
+		C501A6801C9720800034733C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C501A67F1C9720800034733C /* LaunchScreen.storyboard */; };
+		C501A6891C9720AF0034733C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C501A6871C9720AF0034733C /* HomeViewController.swift */; };
+		C501A68A1C9720AF0034733C /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C501A6881C9720AF0034733C /* HomeViewController.xib */; };
+		C501A68D1C9721E20034733C /* CornerRadiusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C501A68B1C9721E20034733C /* CornerRadiusViewController.swift */; };
+		C501A68E1C9721E20034733C /* CornerRadiusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C501A68C1C9721E20034733C /* CornerRadiusViewController.xib */; };
+		C501A6911C9721F10034733C /* DrawRectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C501A68F1C9721F10034733C /* DrawRectViewController.swift */; };
+		C501A6921C9721F10034733C /* DrawRectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C501A6901C9721F10034733C /* DrawRectViewController.xib */; };
+		C501A6A11C9722690034733C /* RoundedCornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C501A6A01C9722690034733C /* RoundedCornerView.swift */; };
+		C501A6A41C9733050034733C /* CornerRadiusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C501A6A21C9733050034733C /* CornerRadiusCell.swift */; };
+		C501A6A51C9733050034733C /* CornerRadiusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C501A6A31C9733050034733C /* CornerRadiusCell.xib */; };
+		C501A6A81C973F630034733C /* DrawRectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C501A6A61C973F630034733C /* DrawRectCell.swift */; };
+		C501A6A91C973F630034733C /* DrawRectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C501A6A71C973F630034733C /* DrawRectCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C501A6721C9720800034733C /* RoundedCorners.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoundedCorners.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C501A6761C9720800034733C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Application/AppDelegate.swift; sourceTree = "<group>"; };
+		C501A67D1C9720800034733C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Application/Assets.xcassets; sourceTree = "<group>"; };
+		C501A67F1C9720800034733C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Application/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C501A6811C9720800034733C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C501A6871C9720AF0034733C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ViewControllers/HomeViewController.swift; sourceTree = "<group>"; };
+		C501A6881C9720AF0034733C /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HomeViewController.xib; path = ViewControllers/HomeViewController.xib; sourceTree = "<group>"; };
+		C501A68B1C9721E20034733C /* CornerRadiusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CornerRadiusViewController.swift; path = ViewControllers/CornerRadiusViewController.swift; sourceTree = "<group>"; };
+		C501A68C1C9721E20034733C /* CornerRadiusViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CornerRadiusViewController.xib; path = ViewControllers/CornerRadiusViewController.xib; sourceTree = "<group>"; };
+		C501A68F1C9721F10034733C /* DrawRectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DrawRectViewController.swift; path = ViewControllers/DrawRectViewController.swift; sourceTree = "<group>"; };
+		C501A6901C9721F10034733C /* DrawRectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DrawRectViewController.xib; path = ViewControllers/DrawRectViewController.xib; sourceTree = "<group>"; };
+		C501A6A01C9722690034733C /* RoundedCornerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCornerView.swift; sourceTree = "<group>"; };
+		C501A6A21C9733050034733C /* CornerRadiusCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerRadiusCell.swift; sourceTree = "<group>"; };
+		C501A6A31C9733050034733C /* CornerRadiusCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CornerRadiusCell.xib; sourceTree = "<group>"; };
+		C501A6A61C973F630034733C /* DrawRectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawRectCell.swift; sourceTree = "<group>"; };
+		C501A6A71C973F630034733C /* DrawRectCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawRectCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C501A66F1C9720800034733C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C501A6691C9720800034733C = {
+			isa = PBXGroup;
+			children = (
+				C501A6741C9720800034733C /* RoundedCorners */,
+				C501A6731C9720800034733C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C501A6731C9720800034733C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C501A6721C9720800034733C /* RoundedCorners.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C501A6741C9720800034733C /* RoundedCorners */ = {
+			isa = PBXGroup;
+			children = (
+				C501A6811C9720800034733C /* Info.plist */,
+				C501A6751C9720800034733C /* Application */,
+				C501A6781C9720800034733C /* ViewControllers */,
+				C501A6971C9722330034733C /* Views */,
+			);
+			path = RoundedCorners;
+			sourceTree = "<group>";
+		};
+		C501A6751C9720800034733C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				C501A6761C9720800034733C /* AppDelegate.swift */,
+				C501A67D1C9720800034733C /* Assets.xcassets */,
+				C501A67F1C9720800034733C /* LaunchScreen.storyboard */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		C501A6781C9720800034733C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C501A68B1C9721E20034733C /* CornerRadiusViewController.swift */,
+				C501A68C1C9721E20034733C /* CornerRadiusViewController.xib */,
+				C501A68F1C9721F10034733C /* DrawRectViewController.swift */,
+				C501A6901C9721F10034733C /* DrawRectViewController.xib */,
+				C501A6871C9720AF0034733C /* HomeViewController.swift */,
+				C501A6881C9720AF0034733C /* HomeViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C501A6971C9722330034733C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C501A6A21C9733050034733C /* CornerRadiusCell.swift */,
+				C501A6A31C9733050034733C /* CornerRadiusCell.xib */,
+				C501A6A61C973F630034733C /* DrawRectCell.swift */,
+				C501A6A71C973F630034733C /* DrawRectCell.xib */,
+				C501A6A01C9722690034733C /* RoundedCornerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C501A6711C9720800034733C /* RoundedCorners */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C501A6841C9720800034733C /* Build configuration list for PBXNativeTarget "RoundedCorners" */;
+			buildPhases = (
+				C501A66E1C9720800034733C /* Sources */,
+				C501A66F1C9720800034733C /* Frameworks */,
+				C501A6701C9720800034733C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoundedCorners;
+			productName = RoundedCorners;
+			productReference = C501A6721C9720800034733C /* RoundedCorners.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C501A66A1C9720800034733C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Livefront;
+				TargetAttributes = {
+					C501A6711C9720800034733C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C501A66D1C9720800034733C /* Build configuration list for PBXProject "RoundedCorners" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C501A6691C9720800034733C;
+			productRefGroup = C501A6731C9720800034733C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C501A6711C9720800034733C /* RoundedCorners */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C501A6701C9720800034733C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C501A6801C9720800034733C /* LaunchScreen.storyboard in Resources */,
+				C501A67E1C9720800034733C /* Assets.xcassets in Resources */,
+				C501A6A91C973F630034733C /* DrawRectCell.xib in Resources */,
+				C501A6A51C9733050034733C /* CornerRadiusCell.xib in Resources */,
+				C501A6921C9721F10034733C /* DrawRectViewController.xib in Resources */,
+				C501A68A1C9720AF0034733C /* HomeViewController.xib in Resources */,
+				C501A68E1C9721E20034733C /* CornerRadiusViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C501A66E1C9720800034733C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C501A68D1C9721E20034733C /* CornerRadiusViewController.swift in Sources */,
+				C501A6A81C973F630034733C /* DrawRectCell.swift in Sources */,
+				C501A6A41C9733050034733C /* CornerRadiusCell.swift in Sources */,
+				C501A6771C9720800034733C /* AppDelegate.swift in Sources */,
+				C501A6911C9721F10034733C /* DrawRectViewController.swift in Sources */,
+				C501A6891C9720AF0034733C /* HomeViewController.swift in Sources */,
+				C501A6A11C9722690034733C /* RoundedCornerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C501A6821C9720800034733C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C501A6831C9720800034733C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C501A6851C9720800034733C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoundedCorners/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = livefront.RoundedCorners;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C501A6861C9720800034733C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RoundedCorners/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = livefront.RoundedCorners;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C501A66D1C9720800034733C /* Build configuration list for PBXProject "RoundedCorners" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C501A6821C9720800034733C /* Debug */,
+				C501A6831C9720800034733C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C501A6841C9720800034733C /* Build configuration list for PBXNativeTarget "RoundedCorners" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C501A6851C9720800034733C /* Debug */,
+				C501A6861C9720800034733C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C501A66A1C9720800034733C /* Project object */;
+}
